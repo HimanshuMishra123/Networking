@@ -21,7 +21,8 @@ Why Use Subnets?<br />
 Security: Subnets help keep your devices safe by isolating them into different groups. If one device gets infected with a virus, it's less likely to spread to other devices on a different subnet.<br />
 Organization: Subnets make it easier to manage your network by dividing it into logical groups. You can have a subnet for your computers, another for your printers, and another for your smart home devices.<br />
 
-there are two types of subnets one is private subnet two is public subnet if you ever used the cloud provider you might have uh heard about this terms called private and public subnet but what exactly are these so private subnet is some Network that does not have access to Internet and public subnet is a subnet that has access to Internet that's the only difference. how do you do that how can you enable access to Internet don't worry it's a very simple concept uh you know if you already know about Cloud providers like AWS or Azure all that you need to do is you can go to this particular subnets and you can attach route tables to this particular subnet and destination of a particular route of this subnet you can provide as an internet gateway and that will grant access to the internet.
+there are two types of subnets one is private subnet two is public subnet if you ever used the cloud provider you might have uh heard about this terms called private and public subnet but what exactly are these so private subnet is some Network that does not have access to Internet and public subnet is a subnet that has access to Internet that's the only difference. how do you do that how can you enable access to Internet don't worry it's a very simple concept uh you know if you already know about Cloud providers like AWS or Azure all that you need to do is you can go to this particular subnets and you can attach route tables to this particular subnet and destination of a particular route of this subnet you can provide as an internet gateway and that will grant access to the internet.<br />
+for example 8.8.8.8 is a public IP address that is taken by google.com
 
 ## CIDR:<br />
 
@@ -57,4 +58,18 @@ CIDR: Describes how many IP addresses are available within a subnet.<br />
 
 ![Learn Networking in 3 Hours _ Networking Fundamentals + AWS VPC Networking 27-19 screenshot](https://github.com/HimanshuMishra123/Networking/assets/164254902/3d37f243-14cc-4440-a0b6-0114b0978a8b)
 
+## Ports
+
+Ports are crucial for connecting to websites and running applications on virtual machines (VMs). Here’s a simplified explanation:
+
+- **Ports and IP Addresses**: When connecting to websites, you often specify ports (e.g., :80, :443, :8080). These ports help direct traffic to the correct application on a server.
+  
+- **Application Binding**: On a VM, multiple applications can run simultaneously. Each application is assigned a unique port number to distinguish it from others.
+
+- **Port Ranges**: Ports are limited to a specific range, and some ports are reserved for common applications (e.g., MySQL typically uses port 3306, Jenkins uses port 8080).
+
+- **Best Practices**: Avoid using ports commonly associated with other applications. Instead, choose unique ports such as 9000 or 9191 to prevent conflicts.
+
+
+https://www.techtarget.com/searchnetworking/definition/port-number
 
