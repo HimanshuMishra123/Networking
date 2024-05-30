@@ -45,9 +45,9 @@ The source and destination IP addresses are added to the data segments, which ar
 It determines the best path for the data to travel from the source to the destination.
 The Network layer is responsible for logical addressing and routing of data across the network. 
 
-Layer 2 - Data Link Layer: (@Switch level) ... Router is connected to switches which  are ethernet ports.
-``` The packets are converted into frames, and MAC addresses/info are added. 
-``` MAc info tells switch what are the other components within your network 
+Layer 2 - Data Link Layer: (@Switch level) ... Router is connected to switches which  are ethernet ports. <br />
+The packets are converted into frames, and MAC addresses/info are added.<br /> 
+MAc info tells switch what are the other components within your network <br />
 
 Layer 1 - Physical Layer: (@ Hub or Modem or fiber/optical Cables)
 The data is converted into electronic signals and transmitted over the physical network. Fibre cables only understand electronic signals.
