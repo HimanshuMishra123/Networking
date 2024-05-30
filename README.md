@@ -1,8 +1,8 @@
-# Networking
+# Networking OSI Model - Detailed Notes 
 
 ![image](https://github.com/HimanshuMishra123/Networing/assets/164254902/d63dbe37-1b05-4bc8-a36e-9c89f4ae7986)
 
-## OSI Model - Detailed Notes
+
 
 Introduction:
 The OSI (Open Systems Interconnection) model is a popular framework for understanding the journey of data across the internet.
@@ -21,11 +21,13 @@ The client sends a SYN (synchronize) packet, the server responds with a SYN-ACK 
 Layer 7 - Application Layer:
 The Application layer is responsible for defining the format and structure of the data being transmitted.
 example - The browser initiates an HTTP or HTTPS or FTP request to the server.
+
 Layer 6 - Presentation Layer:
 The data is encrypted, and the format and encoding are handled.
 The Presentation layer is responsible for translating data between different formats and encodings.
 It ensures that the data sent by the Application layer can be understood and processed by the receiving system.
 This layer handles tasks such as encryption, decryption, and data compression.
+
 Layer 5 - Session Layer:
 A session is created between the client and the server. (jisse baar baar login na manage example - transaction process bich mein na ruk jaye)
 The Session layer is responsible for establishing, maintaining, and synchronizing communication sessions between applications.
