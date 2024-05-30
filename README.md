@@ -37,13 +37,16 @@ The data is segmented, and the protocol (TCP or UDP) is identified.
 example- For http the protocol is TCP and for DNS etc the protocol is UDP. 
 the Transport layer is responsible for the TCP handshake. It handles tasks such as segmentation means carving up information into smaller pieces(10GB data ko samller piece s mein convert krna jisse bich mein process break na ho) .
 The Transport layer is responsible for end-to-end data delivery, ensuring that the data is transmitted reliably and without errors.
+
 Layer 3 - Network Layer: (@ Router level)
 The source and destination IP addresses are added to the data segments, which are now called packets.
 It determines the best path for the data to travel from the source to the destination.
 The Network layer is responsible for logical addressing and routing of data across the network. 
+
 Layer 2 - Data Link Layer: (@Switch level) ... Router is connected to switches which  are ethernet ports
 The packets are converted into frames, and MAC addresses/info are added. 
 MAc info tells switch what are the other components within your network 
+
 Layer 1 - Physical Layer: (@ Hub or Modem or fiber/optical Cables)
 The data is converted into electronic signals and transmitted over the physical network. Fibre cables only understand electronic signals.
 
