@@ -9,6 +9,8 @@ Finding Devices: Just like you need an address to find a house, other devices on
 Sending Information: When you browse the web, your computer uses your IP address to tell websites where to send the information you request.<br />
 Security: IP addresses can be used to control who can access your network or certain websites.<br />
 
+most of the times when we talk about private subnets you will see this numbers only 192.0.0.0 or 172.0.0.0 or 10.0.0.0  because these are the ones that are used for private subnets just like a standard practice as others are used for public ips
+
 ## Subnet: Dividing Your Network <br />
 
 example - finance ke liye alag subnet bna do for security purpose <br />
@@ -18,6 +20,8 @@ Subnets are like dividing your network into smaller, more manageable groups for 
 Why Use Subnets?<br />
 Security: Subnets help keep your devices safe by isolating them into different groups. If one device gets infected with a virus, it's less likely to spread to other devices on a different subnet.<br />
 Organization: Subnets make it easier to manage your network by dividing it into logical groups. You can have a subnet for your computers, another for your printers, and another for your smart home devices.<br />
+
+there are two types of subnets one is private subnet two is public subnet if you ever used the cloud provider you might have uh heard about this terms called private and public subnet but what exactly are these so private subnet is some Network that does not have access to Internet and public subnet is a subnet that has access to Internet that's the only difference. how do you do that how can you enable access to Internet don't worry it's a very simple concept uh you know if you already know about Cloud providers like AWS or Azure all that you need to do is you can go to this particular subnets and you can attach route tables to this particular subnet and destination of a particular route of this subnet you can provide as an internet gateway and that will grant access to the internet.
 
 ## CIDR:<br />
 
