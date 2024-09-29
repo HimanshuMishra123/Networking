@@ -44,8 +44,8 @@ Let's say you're setting up a network for your small business. You want to have 
 
 Choose an IP Address Range: You might choose the range 192.168.1.0 to 192.168.1.255 for your network.<br />
 Create the Subnets:<br />
-Employee Computers: You could use the CIDR notation 192.168.1.0/24 for your employee subnet. This would give you 256 IP addresses for your employees.<br />
-Printers: You could use the CIDR notation 192.168.1.128/25 for your printer subnet. This would give you 128 IP addresses for your printers.<br />
+Employee Computers: You could use the CIDR notation 192.168.1.0/25 for your employee subnet. This would give you 128 IP addresses for your employees.(192.168.1.0 to 192.168.1.127) <br />
+Printers: You could use the CIDR notation 192.168.1.128/25 for your printer subnet. This would give you 128 IP addresses for your printers.(192.168.1.128 to 192.168.1.255) <br />
 Key Takeaways<br />
 
 IP addresses: Unique identifiers for devices on a network.<br />
