@@ -1,5 +1,7 @@
 # Networking OSI Model - Detailed Notes 
 
+Must watch Video: https://www.youtube.com/watch?v=ZF9j3w95swU&list=PLRjPlu6MAom7Kj0efDQJDtdpcazYJOAwf&index=6
+
 ![image](https://github.com/HimanshuMishra123/Networing/assets/164254902/d63dbe37-1b05-4bc8-a36e-9c89f4ae7986)
 
 
